@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+}
+
+:root{
+    font-family: 'Baloo Tammudu 2', cursive;
+    font-size: 1.5rem;
+}
+
+.character-card > img{
+    border-radius: 2em;
+}
+
+.character-card{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.character-card > p{
+    align-self: center;
+}
+
+.display-card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2em;
+}
+
+.flex-div{
+    display: flex;
+    justify-content: center ;
+}
+
+.search-bar{
+    margin-bottom: 0.5em;
+    padding: 1em 0;
+    background-color: aqua;
+}
+
+.input{
+    margin-left: 1em;
+}
+
+.bottom-navigation{
+    text-decoration: none;
+}
+
+.bottom-navigation > p{
+    text-decoration: none;
+    display: inline;
+    margin: 0;
+}
+
+.wrapper-bottom-nav{
+    display: flex;
+    justify-content: space-between;
+}
